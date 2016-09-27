@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8AF7A743C7AE56F720D4A3 /* libPods-ubuntu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AB5BB6660658E44BFC7098 /* libPods-ubuntu.a */; };
+		920F3C681D97F6FF005532E0 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F3C651D97F6FF005532E0 /* Product.m */; };
+		920F3C691D97F6FF005532E0 /* Professional.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F3C671D97F6FF005532E0 /* Professional.m */; };
+		920F3C6D1D982051005532E0 /* AddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F3C6B1D982051005532E0 /* AddCell.m */; };
+		920F3C6E1D982051005532E0 /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920F3C6C1D982051005532E0 /* AddCell.xib */; };
+		920F3C711D982311005532E0 /* UIView+NibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F3C701D982311005532E0 /* UIView+NibLoading.m */; };
+		922863821D9705DF008C85F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922863811D9705DF008C85F8 /* main.m */; };
+		922863851D9705DF008C85F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 922863841D9705DF008C85F8 /* AppDelegate.m */; };
+		9228638D1D9705DF008C85F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9228638C1D9705DF008C85F8 /* Assets.xcassets */; };
+		922863901D9705DF008C85F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9228638E1D9705DF008C85F8 /* LaunchScreen.storyboard */; };
+		9228639D1D970627008C85F8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228639B1D970627008C85F8 /* LoginViewController.m */; };
+		9228639E1D970627008C85F8 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9228639C1D970627008C85F8 /* LoginViewController.xib */; };
+		922863A21D970635008C85F8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922863A01D970635008C85F8 /* MapViewController.m */; };
+		922863A31D970635008C85F8 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922863A11D970635008C85F8 /* MapViewController.xib */; };
+		922863A71D9706B7008C85F8 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922863A61D9706B7008C85F8 /* NavigationController.m */; };
+		923804221D976610003282E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923804211D976610003282E6 /* MapKit.framework */; };
+		923804261D977263003282E6 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804241D977263003282E6 /* ServicesViewController.m */; };
+		923804271D977263003282E6 /* ServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923804251D977263003282E6 /* ServicesViewController.xib */; };
+		9238042C1D9783E8003282E6 /* ServiceProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238042B1D9783E8003282E6 /* ServiceProducts.m */; };
+		923804311D97851B003282E6 /* ServiceProfessionals.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804301D97851B003282E6 /* ServiceProfessionals.m */; };
+		923804351D979169003282E6 /* HistoricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804331D979169003282E6 /* HistoricViewController.m */; };
+		923804361D979169003282E6 /* HistoricViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923804341D979169003282E6 /* HistoricViewController.xib */; };
+		9238043A1D979320003282E6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804381D979320003282E6 /* MyViewController.m */; };
+		9238043B1D979320003282E6 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923804391D979320003282E6 /* MyViewController.xib */; };
+		9238043F1D979410003282E6 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238043D1D979410003282E6 /* FavoritesViewController.m */; };
+		923804401D979410003282E6 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9238043E1D979410003282E6 /* FavoritesViewController.xib */; };
+		923804471D9798DD003282E6 /* Schedules.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804441D9798DD003282E6 /* Schedules.m */; };
+		923804481D9798DD003282E6 /* ServiceCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 923804461D9798DD003282E6 /* ServiceCalendar.m */; };
+		9238044D1D979C23003282E6 /* ServiceMerchants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238044C1D979C23003282E6 /* ServiceMerchants.m */; };
+		9247DD751D97170100075768 /* AddQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9247DD731D97170100075768 /* AddQueueViewController.m */; };
+		9247DD761D97170100075768 /* AddQueueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9247DD741D97170100075768 /* AddQueueViewController.xib */; };
+		9247DD7B1D97213F00075768 /* QueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9247DD791D97213F00075768 /* QueueViewController.m */; };
+		9247DD7C1D97213F00075768 /* QueueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9247DD7A1D97213F00075768 /* QueueViewController.xib */; };
+		9247DD7F1D9731FD00075768 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9247DD7E1D9731FD00075768 /* BaseViewController.m */; };
+		9247DD851D973BD900075768 /* ServiceQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9247DD841D973BD900075768 /* ServiceQueue.m */; };
+		9247DD8A1D973C8E00075768 /* ServiceReturnQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9247DD891D973C8E00075768 /* ServiceReturnQueue.m */; };
+		92D70A801D970E3700918F4F /* PinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D70A7F1D970E3700918F4F /* PinAnnotation.m */; };
+		92D70A841D97100100918F4F /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D70A831D97100100918F4F /* Download.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0209D86028A69830C015FB76 /* Pods-ubuntu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubuntu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ubuntu/Pods-ubuntu.debug.xcconfig"; sourceTree = "<group>"; };
+		443B2D4EBF3C812CF94D15C1 /* Pods-ubuntu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ubuntu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ubuntu/Pods-ubuntu.release.xcconfig"; sourceTree = "<group>"; };
+		48AB5BB6660658E44BFC7098 /* libPods-ubuntu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ubuntu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920F3C641D97F6FF005532E0 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		920F3C651D97F6FF005532E0 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		920F3C661D97F6FF005532E0 /* Professional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Professional.h; sourceTree = "<group>"; };
+		920F3C671D97F6FF005532E0 /* Professional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Professional.m; sourceTree = "<group>"; };
+		920F3C6A1D982051005532E0 /* AddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCell.h; sourceTree = "<group>"; };
+		920F3C6B1D982051005532E0 /* AddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCell.m; sourceTree = "<group>"; };
+		920F3C6C1D982051005532E0 /* AddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		920F3C6F1D982311005532E0 /* UIView+NibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NibLoading.h"; sourceTree = "<group>"; };
+		920F3C701D982311005532E0 /* UIView+NibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NibLoading.m"; sourceTree = "<group>"; };
+		9228637D1D9705DF008C85F8 /* ubuntu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubuntu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		922863811D9705DF008C85F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		922863831D9705DF008C85F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		922863841D9705DF008C85F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9228638C1D9705DF008C85F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9228638F1D9705DF008C85F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		922863911D9705DF008C85F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9228639A1D970627008C85F8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9228639B1D970627008C85F8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9228639C1D970627008C85F8 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9228639F1D970635008C85F8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		922863A01D970635008C85F8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		922863A11D970635008C85F8 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		922863A51D9706B7008C85F8 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		922863A61D9706B7008C85F8 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		923804211D976610003282E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		923804231D977263003282E6 /* ServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		923804241D977263003282E6 /* ServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		923804251D977263003282E6 /* ServicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicesViewController.xib; sourceTree = "<group>"; };
+		923804291D9783E8003282E6 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		9238042A1D9783E8003282E6 /* ServiceProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProducts.h; sourceTree = "<group>"; };
+		9238042B1D9783E8003282E6 /* ServiceProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProducts.m; sourceTree = "<group>"; };
+		9238042E1D97851B003282E6 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		9238042F1D97851B003282E6 /* ServiceProfessionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProfessionals.h; sourceTree = "<group>"; };
+		923804301D97851B003282E6 /* ServiceProfessionals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProfessionals.m; sourceTree = "<group>"; };
+		923804321D979169003282E6 /* HistoricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricViewController.h; sourceTree = "<group>"; };
+		923804331D979169003282E6 /* HistoricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricViewController.m; sourceTree = "<group>"; };
+		923804341D979169003282E6 /* HistoricViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoricViewController.xib; sourceTree = "<group>"; };
+		923804371D979320003282E6 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../Services/MyViewController.h; sourceTree = "<group>"; };
+		923804381D979320003282E6 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../Services/MyViewController.m; sourceTree = "<group>"; };
+		923804391D979320003282E6 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyViewController.xib; path = ../Services/MyViewController.xib; sourceTree = "<group>"; };
+		9238043C1D979410003282E6 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		9238043D1D979410003282E6 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		9238043E1D979410003282E6 /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		923804421D9798DD003282E6 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		923804431D9798DD003282E6 /* Schedules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedules.h; sourceTree = "<group>"; };
+		923804441D9798DD003282E6 /* Schedules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedules.m; sourceTree = "<group>"; };
+		923804451D9798DD003282E6 /* ServiceCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCalendar.h; sourceTree = "<group>"; };
+		923804461D9798DD003282E6 /* ServiceCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCalendar.m; sourceTree = "<group>"; };
+		9238044A1D979C23003282E6 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		9238044B1D979C23003282E6 /* ServiceMerchants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMerchants.h; sourceTree = "<group>"; };
+		9238044C1D979C23003282E6 /* ServiceMerchants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMerchants.m; sourceTree = "<group>"; };
+		9247DD721D97170100075768 /* AddQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddQueueViewController.h; sourceTree = "<group>"; };
+		9247DD731D97170100075768 /* AddQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddQueueViewController.m; sourceTree = "<group>"; };
+		9247DD741D97170100075768 /* AddQueueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddQueueViewController.xib; sourceTree = "<group>"; };
+		9247DD781D97213F00075768 /* QueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueViewController.h; sourceTree = "<group>"; };
+		9247DD791D97213F00075768 /* QueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueViewController.m; sourceTree = "<group>"; };
+		9247DD7A1D97213F00075768 /* QueueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueueViewController.xib; sourceTree = "<group>"; };
+		9247DD7D1D9731FD00075768 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9247DD7E1D9731FD00075768 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9247DD821D973BD900075768 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		9247DD831D973BD900075768 /* ServiceQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceQueue.h; sourceTree = "<group>"; };
+		9247DD841D973BD900075768 /* ServiceQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceQueue.m; sourceTree = "<group>"; };
+		9247DD871D973C8E00075768 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		9247DD881D973C8E00075768 /* ServiceReturnQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceReturnQueue.h; sourceTree = "<group>"; };
+		9247DD891D973C8E00075768 /* ServiceReturnQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceReturnQueue.m; sourceTree = "<group>"; };
+		92D70A7E1D970E3700918F4F /* PinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinAnnotation.h; sourceTree = "<group>"; };
+		92D70A7F1D970E3700918F4F /* PinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinAnnotation.m; sourceTree = "<group>"; };
+		92D70A821D97100100918F4F /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		92D70A831D97100100918F4F /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9228637A1D9705DF008C85F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923804221D976610003282E6 /* MapKit.framework in Frameworks */,
+				6F8AF7A743C7AE56F720D4A3 /* libPods-ubuntu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DEB2F7D7DF2CC484F0EFE48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923804211D976610003282E6 /* MapKit.framework */,
+				48AB5BB6660658E44BFC7098 /* libPods-ubuntu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14D9FD1FCE5556C55EFD721B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0209D86028A69830C015FB76 /* Pods-ubuntu.debug.xcconfig */,
+				443B2D4EBF3C812CF94D15C1 /* Pods-ubuntu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		922863741D9705DF008C85F8 = {
+			isa = PBXGroup;
+			children = (
+				9228637F1D9705DF008C85F8 /* ubuntu */,
+				9228637E1D9705DF008C85F8 /* Products */,
+				14D9FD1FCE5556C55EFD721B /* Pods */,
+				0DEB2F7D7DF2CC484F0EFE48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9228637E1D9705DF008C85F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9228637D1D9705DF008C85F8 /* ubuntu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9228637F1D9705DF008C85F8 /* ubuntu */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD801D973BD900075768 /* Services */,
+				922863971D970617008C85F8 /* Classes */,
+				922863831D9705DF008C85F8 /* AppDelegate.h */,
+				922863841D9705DF008C85F8 /* AppDelegate.m */,
+				9228638C1D9705DF008C85F8 /* Assets.xcassets */,
+				9228638E1D9705DF008C85F8 /* LaunchScreen.storyboard */,
+				922863911D9705DF008C85F8 /* Info.plist */,
+				922863801D9705DF008C85F8 /* Supporting Files */,
+			);
+			path = ubuntu;
+			sourceTree = "<group>";
+		};
+		922863801D9705DF008C85F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				922863811D9705DF008C85F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		922863971D970617008C85F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD771D97213000075768 /* Queue */,
+				9247DD711D97170100075768 /* AddQueue */,
+				92D70A811D970FF500918F4F /* Download */,
+				922863A41D9706B7008C85F8 /* Navigation */,
+				922863981D970617008C85F8 /* Login */,
+				922863991D970617008C85F8 /* Map */,
+				9247DD7D1D9731FD00075768 /* BaseViewController.h */,
+				9247DD7E1D9731FD00075768 /* BaseViewController.m */,
+				920F3C6F1D982311005532E0 /* UIView+NibLoading.h */,
+				920F3C701D982311005532E0 /* UIView+NibLoading.m */,
+				923804231D977263003282E6 /* ServicesViewController.h */,
+				923804241D977263003282E6 /* ServicesViewController.m */,
+				923804251D977263003282E6 /* ServicesViewController.xib */,
+				923804321D979169003282E6 /* HistoricViewController.h */,
+				923804331D979169003282E6 /* HistoricViewController.m */,
+				923804341D979169003282E6 /* HistoricViewController.xib */,
+				923804371D979320003282E6 /* MyViewController.h */,
+				923804381D979320003282E6 /* MyViewController.m */,
+				923804391D979320003282E6 /* MyViewController.xib */,
+				9238043C1D979410003282E6 /* FavoritesViewController.h */,
+				9238043D1D979410003282E6 /* FavoritesViewController.m */,
+				9238043E1D979410003282E6 /* FavoritesViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		922863981D970617008C85F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9228639A1D970627008C85F8 /* LoginViewController.h */,
+				9228639B1D970627008C85F8 /* LoginViewController.m */,
+				9228639C1D970627008C85F8 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		922863991D970617008C85F8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9228639F1D970635008C85F8 /* MapViewController.h */,
+				922863A01D970635008C85F8 /* MapViewController.m */,
+				922863A11D970635008C85F8 /* MapViewController.xib */,
+				92D70A7E1D970E3700918F4F /* PinAnnotation.h */,
+				92D70A7F1D970E3700918F4F /* PinAnnotation.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		922863A41D9706B7008C85F8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				922863A51D9706B7008C85F8 /* NavigationController.h */,
+				922863A61D9706B7008C85F8 /* NavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		923804281D9783E8003282E6 /* ServiceProducts */ = {
+			isa = PBXGroup;
+			children = (
+				923804291D9783E8003282E6 /* DataModels.h */,
+				9238042A1D9783E8003282E6 /* ServiceProducts.h */,
+				9238042B1D9783E8003282E6 /* ServiceProducts.m */,
+			);
+			path = ServiceProducts;
+			sourceTree = "<group>";
+		};
+		9238042D1D97851B003282E6 /* ServiceProfessionals */ = {
+			isa = PBXGroup;
+			children = (
+				9238042E1D97851B003282E6 /* DataModels.h */,
+				9238042F1D97851B003282E6 /* ServiceProfessionals.h */,
+				923804301D97851B003282E6 /* ServiceProfessionals.m */,
+			);
+			path = ServiceProfessionals;
+			sourceTree = "<group>";
+		};
+		923804411D9798DD003282E6 /* ServiceCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				920F3C641D97F6FF005532E0 /* Product.h */,
+				920F3C651D97F6FF005532E0 /* Product.m */,
+				920F3C661D97F6FF005532E0 /* Professional.h */,
+				920F3C671D97F6FF005532E0 /* Professional.m */,
+				923804421D9798DD003282E6 /* DataModels.h */,
+				923804431D9798DD003282E6 /* Schedules.h */,
+				923804441D9798DD003282E6 /* Schedules.m */,
+				923804451D9798DD003282E6 /* ServiceCalendar.h */,
+				923804461D9798DD003282E6 /* ServiceCalendar.m */,
+			);
+			path = ServiceCalendar;
+			sourceTree = "<group>";
+		};
+		923804491D979C23003282E6 /* ServiceMerchants */ = {
+			isa = PBXGroup;
+			children = (
+				9238044A1D979C23003282E6 /* DataModels.h */,
+				9238044B1D979C23003282E6 /* ServiceMerchants.h */,
+				9238044C1D979C23003282E6 /* ServiceMerchants.m */,
+			);
+			path = ServiceMerchants;
+			sourceTree = "<group>";
+		};
+		9247DD711D97170100075768 /* AddQueue */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD721D97170100075768 /* AddQueueViewController.h */,
+				9247DD731D97170100075768 /* AddQueueViewController.m */,
+				9247DD741D97170100075768 /* AddQueueViewController.xib */,
+				920F3C6A1D982051005532E0 /* AddCell.h */,
+				920F3C6B1D982051005532E0 /* AddCell.m */,
+				920F3C6C1D982051005532E0 /* AddCell.xib */,
+			);
+			path = AddQueue;
+			sourceTree = "<group>";
+		};
+		9247DD771D97213000075768 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD781D97213F00075768 /* QueueViewController.h */,
+				9247DD791D97213F00075768 /* QueueViewController.m */,
+				9247DD7A1D97213F00075768 /* QueueViewController.xib */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		9247DD801D973BD900075768 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				923804491D979C23003282E6 /* ServiceMerchants */,
+				923804411D9798DD003282E6 /* ServiceCalendar */,
+				9238042D1D97851B003282E6 /* ServiceProfessionals */,
+				923804281D9783E8003282E6 /* ServiceProducts */,
+				9247DD861D973C8E00075768 /* ServiceReturnQueue */,
+				9247DD811D973BD900075768 /* ServiceQueue */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9247DD811D973BD900075768 /* ServiceQueue */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD821D973BD900075768 /* DataModels.h */,
+				9247DD831D973BD900075768 /* ServiceQueue.h */,
+				9247DD841D973BD900075768 /* ServiceQueue.m */,
+			);
+			path = ServiceQueue;
+			sourceTree = "<group>";
+		};
+		9247DD861D973C8E00075768 /* ServiceReturnQueue */ = {
+			isa = PBXGroup;
+			children = (
+				9247DD871D973C8E00075768 /* DataModels.h */,
+				9247DD881D973C8E00075768 /* ServiceReturnQueue.h */,
+				9247DD891D973C8E00075768 /* ServiceReturnQueue.m */,
+			);
+			path = ServiceReturnQueue;
+			sourceTree = "<group>";
+		};
+		92D70A811D970FF500918F4F /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				92D70A821D97100100918F4F /* Download.h */,
+				92D70A831D97100100918F4F /* Download.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9228637C1D9705DF008C85F8 /* ubuntu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922863941D9705DF008C85F8 /* Build configuration list for PBXNativeTarget "ubuntu" */;
+			buildPhases = (
+				B8CDC28F94FF0ECB46A7C288 /* 📦 Check Pods Manifest.lock */,
+				922863791D9705DF008C85F8 /* Sources */,
+				9228637A1D9705DF008C85F8 /* Frameworks */,
+				9228637B1D9705DF008C85F8 /* Resources */,
+				F639E992873F5DC2142414A4 /* 📦 Embed Pods Frameworks */,
+				4DB91A66755FC80B01A160B7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ubuntu;
+			productName = ubuntu;
+			productReference = 9228637D1D9705DF008C85F8 /* ubuntu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		922863751D9705DF008C85F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "THS Solution Ltda";
+				TargetAttributes = {
+					9228637C1D9705DF008C85F8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X434P4DGS5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 922863781D9705DF008C85F8 /* Build configuration list for PBXProject "ubuntu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 922863741D9705DF008C85F8;
+			productRefGroup = 9228637E1D9705DF008C85F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9228637C1D9705DF008C85F8 /* ubuntu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9228637B1D9705DF008C85F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922863901D9705DF008C85F8 /* LaunchScreen.storyboard in Resources */,
+				9228638D1D9705DF008C85F8 /* Assets.xcassets in Resources */,
+				923804271D977263003282E6 /* ServicesViewController.xib in Resources */,
+				9247DD7C1D97213F00075768 /* QueueViewController.xib in Resources */,
+				920F3C6E1D982051005532E0 /* AddCell.xib in Resources */,
+				9247DD761D97170100075768 /* AddQueueViewController.xib in Resources */,
+				9228639E1D970627008C85F8 /* LoginViewController.xib in Resources */,
+				922863A31D970635008C85F8 /* MapViewController.xib in Resources */,
+				923804361D979169003282E6 /* HistoricViewController.xib in Resources */,
+				923804401D979410003282E6 /* FavoritesViewController.xib in Resources */,
+				9238043B1D979320003282E6 /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB91A66755FC80B01A160B7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ubuntu/Pods-ubuntu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CDC28F94FF0ECB46A7C288 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F639E992873F5DC2142414A4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ubuntu/Pods-ubuntu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		922863791D9705DF008C85F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9247DD751D97170100075768 /* AddQueueViewController.m in Sources */,
+				9247DD851D973BD900075768 /* ServiceQueue.m in Sources */,
+				923804261D977263003282E6 /* ServicesViewController.m in Sources */,
+				9247DD7F1D9731FD00075768 /* BaseViewController.m in Sources */,
+				922863851D9705DF008C85F8 /* AppDelegate.m in Sources */,
+				922863821D9705DF008C85F8 /* main.m in Sources */,
+				9247DD8A1D973C8E00075768 /* ServiceReturnQueue.m in Sources */,
+				923804351D979169003282E6 /* HistoricViewController.m in Sources */,
+				92D70A801D970E3700918F4F /* PinAnnotation.m in Sources */,
+				92D70A841D97100100918F4F /* Download.m in Sources */,
+				9238044D1D979C23003282E6 /* ServiceMerchants.m in Sources */,
+				922863A71D9706B7008C85F8 /* NavigationController.m in Sources */,
+				920F3C691D97F6FF005532E0 /* Professional.m in Sources */,
+				923804311D97851B003282E6 /* ServiceProfessionals.m in Sources */,
+				920F3C681D97F6FF005532E0 /* Product.m in Sources */,
+				9238043A1D979320003282E6 /* MyViewController.m in Sources */,
+				9247DD7B1D97213F00075768 /* QueueViewController.m in Sources */,
+				920F3C711D982311005532E0 /* UIView+NibLoading.m in Sources */,
+				9238043F1D979410003282E6 /* FavoritesViewController.m in Sources */,
+				923804481D9798DD003282E6 /* ServiceCalendar.m in Sources */,
+				9238042C1D9783E8003282E6 /* ServiceProducts.m in Sources */,
+				923804471D9798DD003282E6 /* Schedules.m in Sources */,
+				920F3C6D1D982051005532E0 /* AddCell.m in Sources */,
+				9228639D1D970627008C85F8 /* LoginViewController.m in Sources */,
+				922863A21D970635008C85F8 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9228638E1D9705DF008C85F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9228638F1D9705DF008C85F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		922863921D9705DF008C85F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		922863931D9705DF008C85F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		922863951D9705DF008C85F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0209D86028A69830C015FB76 /* Pods-ubuntu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = ubuntu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.m4u.ubuntu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		922863961D9705DF008C85F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443B2D4EBF3C812CF94D15C1 /* Pods-ubuntu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X434P4DGS5;
+				INFOPLIST_FILE = ubuntu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.m4u.ubuntu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922863781D9705DF008C85F8 /* Build configuration list for PBXProject "ubuntu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922863921D9705DF008C85F8 /* Debug */,
+				922863931D9705DF008C85F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922863941D9705DF008C85F8 /* Build configuration list for PBXNativeTarget "ubuntu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922863951D9705DF008C85F8 /* Debug */,
+				922863961D9705DF008C85F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 922863751D9705DF008C85F8 /* Project object */;
+}

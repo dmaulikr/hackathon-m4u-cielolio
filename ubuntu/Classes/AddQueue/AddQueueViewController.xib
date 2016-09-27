@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddQueueViewController">
+            <connections>
+                <outlet property="btnAdd" destination="hZb-t5-Iny" id="ghK-k5-jQC"/>
+                <outlet property="imageCapa" destination="lms-Uh-ur9" id="d18-zp-JUW"/>
+                <outlet property="pickerDate" destination="hPo-tb-01h" id="vez-VV-GeO"/>
+                <outlet property="tableView" destination="RaE-Jx-3QE" id="E3B-OP-Dq5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewPicker" destination="RaZ-du-Esx" id="bZ0-Lu-ykC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZb-t5-Iny">
+                    <color key="backgroundColor" red="0.43529411759999997" green="0.81176470590000005" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="j4W-jR-xZ8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="Realizar Reserva">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goToEnterQueue:" destination="-1" eventType="touchUpInside" id="WN7-pe-A8h"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="werner" translatesAutoresizingMaskIntoConstraints="NO" id="lms-Uh-ur9">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="Dk9-DZ-qvL"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RaE-Jx-3QE">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eu0-df-ASg"/>
+                        <outlet property="delegate" destination="-1" id="rkW-f4-a5x"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaZ-du-Esx">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wng-3e-bvA">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="DAH-DP-Lmx"/>
+                                <constraint firstAttribute="height" constant="30" id="HuW-yT-aQv"/>
+                            </constraints>
+                            <state key="normal" title="Fechar"/>
+                            <connections>
+                                <action selector="closeViewPicker:" destination="-1" eventType="touchUpInside" id="mP3-4o-5SF"/>
+                            </connections>
+                        </button>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="hPo-tb-01h">
+                            <date key="date" timeIntervalSinceReferenceDate="496466802.82897699">
+                                <!--2016-09-25 03:26:42 +0000-->
+                            </date>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wng-3e-bvA" secondAttribute="trailing" constant="8" id="8mM-g8-krM"/>
+                        <constraint firstItem="wng-3e-bvA" firstAttribute="top" secondItem="RaZ-du-Esx" secondAttribute="top" constant="3" id="Cdo-Im-Rpt"/>
+                        <constraint firstAttribute="bottom" secondItem="hPo-tb-01h" secondAttribute="bottom" id="En1-K5-pmV"/>
+                        <constraint firstItem="hPo-tb-01h" firstAttribute="leading" secondItem="RaZ-du-Esx" secondAttribute="leading" id="HuH-n5-iTi"/>
+                        <constraint firstItem="hPo-tb-01h" firstAttribute="top" secondItem="wng-3e-bvA" secondAttribute="bottom" constant="5" id="Yb8-4e-s5V"/>
+                        <constraint firstAttribute="trailing" secondItem="hPo-tb-01h" secondAttribute="trailing" id="v82-h0-rTu"/>
+                        <constraint firstAttribute="height" constant="220" id="ylo-3i-gx2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lms-Uh-ur9" secondAttribute="trailing" id="BSr-E5-XN8"/>
+                <constraint firstAttribute="trailing" secondItem="RaE-Jx-3QE" secondAttribute="trailing" id="Ika-23-sTw"/>
+                <constraint firstItem="RaZ-du-Esx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PJa-33-grJ"/>
+                <constraint firstAttribute="bottom" secondItem="RaZ-du-Esx" secondAttribute="bottom" constant="-220" id="RRg-QD-EY8"/>
+                <constraint firstItem="hZb-t5-Iny" firstAttribute="top" secondItem="RaE-Jx-3QE" secondAttribute="bottom" id="UGK-vU-k9g"/>
+                <constraint firstAttribute="trailing" secondItem="hZb-t5-Iny" secondAttribute="trailing" id="WBt-If-ZP7"/>
+                <constraint firstAttribute="trailing" secondItem="RaZ-du-Esx" secondAttribute="trailing" id="WW2-eF-7JX"/>
+                <constraint firstItem="RaE-Jx-3QE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YoN-zC-PHe"/>
+                <constraint firstItem="lms-Uh-ur9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aAD-oN-0fx"/>
+                <constraint firstItem="RaE-Jx-3QE" firstAttribute="top" secondItem="lms-Uh-ur9" secondAttribute="bottom" constant="20" id="aEP-Zj-Fmu"/>
+                <constraint firstAttribute="bottom" secondItem="hZb-t5-Iny" secondAttribute="bottom" id="dCu-50-QnJ"/>
+                <constraint firstItem="hZb-t5-Iny" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gDd-51-1PT"/>
+                <constraint firstItem="lms-Uh-ur9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sCM-dl-gQP"/>
+            </constraints>
+            <point key="canvasLocation" x="-5.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="werner" width="536" height="220"/>
+    </resources>
+</document>

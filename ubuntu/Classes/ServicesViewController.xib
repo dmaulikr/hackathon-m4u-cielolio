@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ServicesViewController">
+            <connections>
+                <outlet property="imageCapa" destination="H5o-KA-on2" id="dPe-R1-YWU"/>
+                <outlet property="labelContent" destination="MTV-VF-Gc2" id="1eQ-sI-EbZ"/>
+                <outlet property="tableView" destination="6A8-6y-0hJ" id="13g-8G-Sdq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="werner" translatesAutoresizingMaskIntoConstraints="NO" id="H5o-KA-on2">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="c2v-u6-Vgo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione um serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTV-VF-Gc2">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="qjR-wc-SZ5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6A8-6y-0hJ">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="xcS-Dd-hKs"/>
+                        <outlet property="delegate" destination="-1" id="XWe-Ag-xYq"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MTV-VF-Gc2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="5J2-0u-Qiy"/>
+                <constraint firstAttribute="bottom" secondItem="6A8-6y-0hJ" secondAttribute="bottom" id="5dg-mg-GRu"/>
+                <constraint firstItem="H5o-KA-on2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5wd-t3-pje"/>
+                <constraint firstAttribute="trailing" secondItem="H5o-KA-on2" secondAttribute="trailing" id="Hsh-ZZ-f30"/>
+                <constraint firstItem="H5o-KA-on2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VDo-uu-JLV"/>
+                <constraint firstItem="6A8-6y-0hJ" firstAttribute="top" secondItem="MTV-VF-Gc2" secondAttribute="bottom" constant="10" id="ZZ1-1X-01x"/>
+                <constraint firstAttribute="trailing" secondItem="MTV-VF-Gc2" secondAttribute="trailing" constant="20" id="a7n-lZ-j4x"/>
+                <constraint firstItem="6A8-6y-0hJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gtY-NE-EZQ"/>
+                <constraint firstAttribute="trailing" secondItem="6A8-6y-0hJ" secondAttribute="trailing" id="ndQ-if-4fG"/>
+                <constraint firstItem="MTV-VF-Gc2" firstAttribute="top" secondItem="H5o-KA-on2" secondAttribute="bottom" constant="30" id="smT-Uv-cqt"/>
+            </constraints>
+            <point key="canvasLocation" x="12" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="werner" width="536" height="220"/>
+    </resources>
+</document>

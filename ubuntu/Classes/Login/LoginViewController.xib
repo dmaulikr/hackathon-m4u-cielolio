@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="textLogin" destination="b9g-E6-gqb" id="sIm-RP-DMf"/>
+                <outlet property="textPassword" destination="Bcg-UY-e9s" id="jD7-v1-uvB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="emq-VW-UxA">
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bcg-UY-e9s">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="260" id="EcL-wL-fbG"/>
+                                <constraint firstAttribute="height" constant="30" id="Sfx-rG-b2T"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POt-uq-L1V">
+                            <color key="backgroundColor" red="0.17791763690000001" green="0.22097081160000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="260" id="0h5-Fb-ig8"/>
+                                <constraint firstAttribute="height" constant="40" id="Wbs-hp-OeG"/>
+                            </constraints>
+                            <state key="normal" title="Facebook">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goToFacebook:" destination="-1" eventType="touchUpInside" id="PAF-Zx-jQ2"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="CHr-Vr-UFg">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="XTp-zJ-hfN"/>
+                                <constraint firstAttribute="height" constant="100" id="dNF-yy-rle"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b9g-E6-gqb">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="260" id="363-UT-lGV"/>
+                                <constraint firstAttribute="height" constant="30" id="viA-b0-34e"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cik-Xt-fco">
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.81176470590000005" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="260" id="Da9-06-9CO"/>
+                                <constraint firstAttribute="height" constant="40" id="jvU-Rx-Rtq"/>
+                            </constraints>
+                            <state key="normal" title="Entrar">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goToEnter:" destination="-1" eventType="touchUpInside" id="5lC-IR-5UB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Cik-Xt-fco" firstAttribute="top" secondItem="Bcg-UY-e9s" secondAttribute="bottom" constant="20" id="2bp-jS-NFu"/>
+                        <constraint firstItem="CHr-Vr-UFg" firstAttribute="top" secondItem="emq-VW-UxA" secondAttribute="top" constant="20" id="4qW-YB-29i"/>
+                        <constraint firstItem="POt-uq-L1V" firstAttribute="centerX" secondItem="emq-VW-UxA" secondAttribute="centerX" id="HzL-W7-9Lr"/>
+                        <constraint firstItem="b9g-E6-gqb" firstAttribute="top" secondItem="CHr-Vr-UFg" secondAttribute="bottom" constant="10" id="Kyl-qA-760"/>
+                        <constraint firstAttribute="height" constant="400" id="Les-ck-Zyb"/>
+                        <constraint firstAttribute="width" constant="300" id="SOq-Yr-8Mh"/>
+                        <constraint firstItem="Bcg-UY-e9s" firstAttribute="top" secondItem="b9g-E6-gqb" secondAttribute="bottom" constant="10" id="W7B-5P-w6P"/>
+                        <constraint firstItem="Bcg-UY-e9s" firstAttribute="centerX" secondItem="emq-VW-UxA" secondAttribute="centerX" id="ZRN-q2-FUC"/>
+                        <constraint firstItem="CHr-Vr-UFg" firstAttribute="centerX" secondItem="emq-VW-UxA" secondAttribute="centerX" id="cTS-PZ-GYt"/>
+                        <constraint firstItem="POt-uq-L1V" firstAttribute="top" secondItem="Cik-Xt-fco" secondAttribute="bottom" constant="20" id="grg-FI-xjU"/>
+                        <constraint firstItem="Cik-Xt-fco" firstAttribute="centerX" secondItem="emq-VW-UxA" secondAttribute="centerX" id="sYD-TE-lIO"/>
+                        <constraint firstItem="b9g-E6-gqb" firstAttribute="centerX" secondItem="emq-VW-UxA" secondAttribute="centerX" id="xms-qt-fyl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.12549019610000001" green="0.5450980392" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="emq-VW-UxA" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="bOx-3B-0py"/>
+                <constraint firstItem="emq-VW-UxA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="igC-nk-zMo"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="photo" width="301" height="301"/>
+    </resources>
+</document>
